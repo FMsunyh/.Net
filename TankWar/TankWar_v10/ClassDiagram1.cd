@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TankWar.BloodBar" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgABAoAAIAAAAAAAAAAAICAAAAAAAAA=</HashCode>
+      <FileName>BloodBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.EatBlood" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>EatBlood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.EnemyOne" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAQAAIAAggAAAAAAAAAAAAAkACAAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.HitCheck" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAAAAAABAgQABAAAAAABhABCAAAgRAAAAAAAAAA=</HashCode>
+      <FileName>HitCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.MainForm" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAARCAACAAAAEIAACAEQASgAIAAIYEAAAEAAAAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.MissileEnemyOne" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAEAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>MissileEnemyOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.Missiles" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACIAAAkAAAAAAAAAAAAAAEAABAAAAAAAAAAA=</HashCode>
+      <FileName>Missiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.MissilesMyTank" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAEAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>MissilesMyTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.Program" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.Tank" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEASAAAIIBAggAAIAgAAAAAAAEkAEAAAAABAACAAAA=</HashCode>
+      <FileName>Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.TankDeathBomp" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAEgAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>TankDeathBomp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.Wall" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="TankWar.Wall.TypeWall" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Wall.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAJAAAAgABAAABAEIAAAAgAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.General.Element" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAABgAAABYAA=</HashCode>
+      <FileName>General\Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.General.RoAndMi" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIIAAAAARAgAAAAAAAAAAAAAAAAABAAAAAAE=</HashCode>
+      <FileName>General\RoAndMi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.General.Roles" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAgAAAAAAAAAACAAEAABgAAABAAAgCAA=</HashCode>
+      <FileName>General\Roles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWar.Properties.Settings" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TankWar.General.RolesDirection" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAQAAQAAAAAAAAAAAKAAAAAAAAABAQCAQA=</HashCode>
+      <FileName>General\RolesDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TankWar.General.MissileDirection" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAQAAQAAAAAAAAAAAKAAAAAAAAABAQCAQA=</HashCode>
+      <FileName>General\RolesDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

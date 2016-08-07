@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DraGonQuest.BloodBar" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgABAoAAIAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>BloodBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.BombFour" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAEgAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>BombFour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.BombOne" Collapsed="true">
+    <Position X="38.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAEgAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>BombOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.BombThree" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAEgAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>BombThree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.BombTwo" Collapsed="true">
+    <Position X="43.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAEgAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>BombTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.EatBlood" Collapsed="true">
+    <Position X="34.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQIAAAgAAgAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>EatBlood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.EatMissile" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQIAAAgAAgAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>EatMissile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.EnemyBoss" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQIAAAgAAoCAAIAAAAAAkAABAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.EnemyFour" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAACAAIAAAAAAkAAAAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyFour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.EnemyOne" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAgAAACAAIAAAAAAkAAAAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.EnemyStone" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAACAAAAAAAAAEAAAAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyStone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.EnemyThree" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAACAAIAAAAAAkAAAAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyThree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.EnemyTwo" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAgAAACAAIAAAAAAkAAAAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.GameOver" Collapsed="true">
+    <Position X="45.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.GameStartSetting" Collapsed="true">
+    <Position X="47.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAggAAAAAAAAAAQAAAAAAAgAAAIAAAAAA=</HashCode>
+      <FileName>GameStartSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.Missiles" Collapsed="true">
+    <Position X="28.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABCAIAAAkAAAAAAAAAAAAAAEAABAAAAAAAAAAA=</HashCode>
+      <FileName>General\Missiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.Hero" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASCAAIIBAggAIoAgABAAAAAEkABBAAAQBIAAAAEA=</HashCode>
+      <FileName>Hero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.HitCheck" Collapsed="true">
+    <Position X="49.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAABggQAAAAAAAAABABCAAgAQIAQACQAAAA=</HashCode>
+      <FileName>HitCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.MainForm" Collapsed="true">
+    <Position X="45.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARCAACQCACIaAICAAQAShBJAAIYAAAAEABgQAAI=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.MissileBomb" Collapsed="true">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAAAAAAAIAABAAIAAAAAA=</HashCode>
+      <FileName>MissileBomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.MissileFour" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAAAAAAAIAAAAAIAAAAAA=</HashCode>
+      <FileName>MissileFour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.MissileHero" Collapsed="true">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAEAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>MissileHero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.MissileOne" Collapsed="true">
+    <Position X="36.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAAAAAAAIAAAAAIAAAAAA=</HashCode>
+      <FileName>MissileOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.MissileThree" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAAAAAAAIAAAAAIAAAAAA=</HashCode>
+      <FileName>MissileThree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.MissileTwo" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAAAAAAAAAAAIAAAAAIAAAAAA=</HashCode>
+      <FileName>MissileTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.Program" Collapsed="true">
+    <Position X="47.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.Sound" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Sound.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DraGonQuest.General.Element" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAABgAAABYAA=</HashCode>
+      <FileName>General\Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.General.RoAndMi" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIIAAAAARAgAAAAAAAAAAAAAAAAABAAAAAAE=</HashCode>
+      <FileName>General\RoAndMi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.General.Roles" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAgAAAAAAAAAAAAAEAEBgAAABAAAgAAA=</HashCode>
+      <FileName>General\Roles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.Properties.Resources" Collapsed="true">
+    <Position X="49.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraGonQuest.Properties.Settings" Collapsed="true">
+    <Position X="45.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DraGonQuest.GameStatus" Collapsed="true">
+    <Position X="45.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>GameStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DraGonQuest.General.RolesDirection" Collapsed="true">
+    <Position X="49.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAQAAQAAAAAAAAAAAKAAAAAAAAABAQCAQA=</HashCode>
+      <FileName>General\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DraGonQuest.General.MissileDirection" Collapsed="true">
+    <Position X="47.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAQAAQAAAAAAAAAAAKAAAAAAAAABAQCAQA=</HashCode>
+      <FileName>General\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
