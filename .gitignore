@@ -253,3 +253,6 @@ paket-files/
 
 # execation
 *.exe
+
+# dll
+*.dll

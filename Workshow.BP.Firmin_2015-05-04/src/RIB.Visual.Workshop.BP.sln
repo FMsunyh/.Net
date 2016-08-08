@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RIB.Visual.Workshop.BP", "RIB.Visual.Workshop.BP\RIB.Visual.Workshop.BP.csproj", "{F897B2CF-3B69-4349-A7E1-2C0A0C8F8742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RIB.Visual.Workshop.BP.Core", "RIB.Visual.Workshop.BP.Core\RIB.Visual.Workshop.BP.Core.csproj", "{AB378CE7-4CB7-4DC0-8385-AF49D38D7847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F897B2CF-3B69-4349-A7E1-2C0A0C8F8742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F897B2CF-3B69-4349-A7E1-2C0A0C8F8742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F897B2CF-3B69-4349-A7E1-2C0A0C8F8742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F897B2CF-3B69-4349-A7E1-2C0A0C8F8742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB378CE7-4CB7-4DC0-8385-AF49D38D7847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB378CE7-4CB7-4DC0-8385-AF49D38D7847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB378CE7-4CB7-4DC0-8385-AF49D38D7847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB378CE7-4CB7-4DC0-8385-AF49D38D7847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

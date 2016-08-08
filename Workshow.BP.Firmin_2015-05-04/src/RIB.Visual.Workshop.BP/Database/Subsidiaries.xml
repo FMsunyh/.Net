@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Subsidiaries>
+  <Subsidiary Id="1">
+    <BpId>1</BpId>
+    <IsMainAddress>True</IsMainAddress>
+    <Description>grae is a IT company</Description>
+    <Address>555 afa Avenue, 10th Floor, Room 22, BeiJing</Address>
+    <Street>555 asfs Avenue</Street>
+    <City>asf</City>
+    <ZipCode>232210</ZipCode>
+    <Telephone>343223534</Telephone>
+    <Email>gsdsd@asd.com</Email>
+  </Subsidiary>
+  <Subsidiary Id="2">
+    <BpId>1</BpId>
+    <IsMainAddress>False</IsMainAddress>
+    <Description>Intel-CPU is a IT company</Description>
+    <Address>555 Guanzghou Avenue, 10th Floor, Room 22, BeiJing</Address>
+    <Street>555 Guanzghou Avenue</Street>
+    <City>BeiJing</City>
+    <ZipCode>232210</ZipCode>
+    <Telephone>0207269719</Telephone>
+    <Email>adas@asd.com</Email>
+  </Subsidiary>
+  <Subsidiary Id="3">
+    <BpId>2</BpId>
+    <IsMainAddress>True</IsMainAddress>
+    <Description>Intel-CPU is a IT company</Description>
+    <Address>555 Guanzghou Avenue, 10th Floor, Room 22, BeiJing</Address>
+    <Street>555 Guanzghou Avenue</Street>
+    <City>BeiJing</City>
+    <ZipCode>232210</ZipCode>
+    <Telephone>0207269719</Telephone>
+    <Email>adas@asd.com</Email>
+  </Subsidiary>
+  <Subsidiary Id="4">
+    <BpId>1</BpId>
+    <IsMainAddress>True</IsMainAddress>
+    <Description>asdfds is a IT company</Description>
+    <Address>56 Guanzghou Avenue, 10th Floor, Room 121, gdsdfvd</Address>
+    <Street>235 Guanzghou Avenue</Street>
+    <City>BeiJing</City>
+    <ZipCode>134234235</ZipCode>
+    <Telephone>6t45t2t3r</Telephone>
+    <Email>rhrth@gad.com</Email>
+  </Subsidiary>
+  <Subsidiary Id="5">
+    <BpId>3</BpId>
+    <IsMainAddress>True</IsMainAddress>
+    <Description>Intel-CPU is a IT company</Description>
+    <Address>555 Guanzghou Avenue, 10th Floor, Room 22, BeiJing</Address>
+    <Street>555 Guanzghou Avenue</Street>
+    <City>BeiJing</City>
+    <ZipCode>232210</ZipCode>
+    <Telephone>0207269719</Telephone>
+    <Email>adas@asd.com</Email>
+  </Subsidiary>
+
+  <Subsidiary Id="6">
+    <BpId>2</BpId>
+    <IsMainAddress>False</IsMainAddress>
+    <Description>as-CPU is a IT company</Description>
+    <Address>5255 cas Avenue, 10th Floor, Room 22, BeiJing</Address>
+    <Street>5a55 asdas Avenue</Street>
+    <City>asdas</City>
+    <ZipCode>232123210</ZipCode>
+    <Telephone>312</Telephone>
+    <Email>123@asd.com</Email>
+  </Subsidiary>
+
+  <Subsidiary Id="7">
+    <BpId>2</BpId>
+    <IsMainAddress>True</IsMainAddress>
+    <Description>as-asdas is a IT company</Description>
+    <Address>234 cas Avenue, 10th Floor 22, BeiJing</Address>
+    <Street>5a55 asdas Avenue</Street>
+    <City>wqdca</City>
+    <ZipCode>c21312</ZipCode>
+    <Telephone>12412343</Telephone>
+    <Email>123@czxc.com</Email>
+  </Subsidiary>
+
+  <Subsidiary Id="8">
+    <BpId>3</BpId>
+    <IsMainAddress>True</IsMainAddress>
+    <Description>as-asdas asdcdsa a IT company</Description>
+    <Address>efa cas Avenue, afsa Floor 22, BeiJing</Address>
+    <Street>asfas asdas asfa</Street>
+    <City>wqdca</City>
+    <ZipCode>c21312</ZipCode>
+    <Telephone>12412343</Telephone>
+    <Email>123@czxc.com</Email>
+  </Subsidiary>
+
+  <Subsidiary Id="9">
+    <BpId>3</BpId>
+    <IsMainAddress>True</IsMainAddress>
+    <Description>as-dasdas asdcdsa a IT company</Description>
+    <Address>efa cas asdas, afsa Floor 22, BeiJing</Address>
+    <Street>qwfasf asdas asfa</Street>
+    <City>asfcas</City>
+    <ZipCode>23423523</ZipCode>
+    <Telephone>2355768</Telephone>
+    <Email>2423csd@czxc.com</Email>
+  </Subsidiary>
+
+  <Subsidiary Id="9">
+    <BpId>4</BpId>
+    <IsMainAddress>True</IsMainAddress>
+    <Description>as-dasdas asdcdsa a IT company</Description>
+    <Address>efa cas asdas, afsa Floor 22, BeiJing</Address>
+    <Street>qwfasf asdas asfa</Street>
+    <City>asfcas</City>
+    <ZipCode>23423523</ZipCode>
+    <Telephone>2355768</Telephone>
+    <Email>2423csd@czxc.com</Email>
+  </Subsidiary>
+
+  <Subsidiary Id="10">
+    <BpId>4</BpId>
+    <IsMainAddress>false</IsMainAddress>
+    <Description>cdsa a df company</Description>
+    <Address>afsa Floor 22, dsfsd</Address>
+    <Street>qnmmhgkkyu asfa</Street>
+    <City>asfcas</City>
+    <ZipCode>2342345y45523</ZipCode>
+    <Telephone>5gfdbgr6</Telephone>
+    <Email>efvsdfs@czxc.com</Email>
+  </Subsidiary>
+
+  <Subsidiary Id="10">
+    <BpId>5</BpId>
+    <IsMainAddress>false</IsMainAddress>
+    <Description>cdsa a df company</Description>
+    <Address>afsa Floor 22, dsfsd</Address>
+    <Street>qnmmhgkkyu asfa</Street>
+    <City>asfcas</City>
+    <ZipCode>2342345y45523</ZipCode>
+    <Telephone>5gfdbgr6</Telephone>
+    <Email>efvsdfs@czxc.com</Email>
+  </Subsidiary>
+  
+  <Subsidiary Id="10">
+    <BpId>5</BpId>
+    <IsMainAddress>false</IsMainAddress>
+    <Description>cdsa a df company</Description>
+    <Address>afsa Floor 22, dsfsd</Address>
+    <Street>qnmmhgkkyu asfa</Street>
+    <City>asfcas</City>
+    <ZipCode>2342345y45523</ZipCode>
+    <Telephone>5gfdbgr6</Telephone>
+    <Email>efvsdfs@czxc.com</Email>
+  </Subsidiary>
+
+</Subsidiaries>

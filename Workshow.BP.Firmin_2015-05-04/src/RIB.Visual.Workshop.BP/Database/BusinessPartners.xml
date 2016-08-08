@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BusinessPartners>
+  <BusinessPartner Id="1">
+    <Name>BusinessPartner 1</Name>
+    <Title>Mr</Title>
+    <CompanyName>Intel</CompanyName>
+    <CompanyCode>001</CompanyCode>
+    <Address>555 Lexington Avenue, 10th Floor, Room 202, New York</Address>
+    <Street>555 Lexington Avenue</Street>
+    <City>New York</City>
+    <ZipCode>122210</ZipCode>
+    <Telephone>0207202219</Telephone>
+    <Email>TTsda@Intel.com</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="2">
+    <Name>BusinessPartner 2</Name>
+    <Title>Mrs</Title>
+    <CompanyName>AMD</CompanyName>
+    <CompanyCode>002</CompanyCode>
+    <Address>555 Lexington Avenue, 10th Floor, Room 202, New York</Address>
+    <Street>555 Lexington Avenue</Street>
+    <City>New York</City>
+    <ZipCode>122210</ZipCode>
+    <Telephone>0207202219</Telephone>
+    <Email>TTsda@Intel.com</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="3">
+    <Name>BusinessPartner 3</Name>
+    <Title>Mr</Title>
+    <CompanyName>Intel</CompanyName>
+    <CompanyCode>003</CompanyCode>
+    <Address>555 Wadaw Acdea, 10th Floor, Room 202, Los Angeles</Address>
+    <Street>555 Lexington Avenue</Street>
+    <City>New York</City>
+    <ZipCode>122210</ZipCode>
+    <Telephone>0207202219</Telephone>
+    <Email>TTsda@Intel.com</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="4">
+    <Name>BusinessPartner 4</Name>
+    <Title>Mr</Title>
+    <CompanyName>Intel</CompanyName>
+    <CompanyCode>004</CompanyCode>
+    <Address>555 Lexington Avenue, 10th Floor, Room 202, New York</Address>
+    <Street>555 Lexington Avenue</Street>
+    <City>New York</City>
+    <ZipCode>122210</ZipCode>
+    <Telephone>0207202219</Telephone>
+    <Email>TTsda@Intel.com</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="5">
+    <Name>BusinessPartner 5</Name>
+    <Title>Mr</Title>
+    <CompanyName>Intel</CompanyName>
+    <CompanyCode>005</CompanyCode>
+    <Address>555 Lexington Avenue, 10th Floor, Room 202, New York</Address>
+    <Street>555 Lexington Avenue</Street>
+    <City>New York</City>
+    <ZipCode>122210</ZipCode>
+    <Telephone>0207202219</Telephone>
+    <Email>TTsda@Intel.com</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="0">
+    <Name>da</Name>
+    <Title>sadf</Title>
+    <CompanyName>sad</CompanyName>
+    <CompanyCode>asd</CompanyCode>
+    <Address>sa</Address>
+    <Street>asd</Street>
+    <ZipCode>asd</ZipCode>
+    <City>as</City>
+    <Telephone>as</Telephone>
+    <Email>asf</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="0">
+    <Name>sads</Name>
+    <Title>sad</Title>
+    <CompanyName>asd</CompanyName>
+    <CompanyCode>asd</CompanyCode>
+    <Address>asd</Address>
+    <Street>asd</Street>
+    <ZipCode>asd</ZipCode>
+    <City>asd</City>
+    <Telephone>asd</Telephone>
+    <Email>asd</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="8">
+    <Name>FSDF</Name>
+    <Title>DAF</Title>
+    <CompanyName>SADF</CompanyName>
+    <CompanyCode>DFA</CompanyCode>
+    <Address>EW</Address>
+    <Street>DF</Street>
+    <ZipCode>XC</ZipCode>
+    <City>VZ</City>
+    <Telephone>DSVS</Telephone>
+    <Email>VS</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="678">
+    <Name>D</Name>
+    <Title>VD</Title>
+    <CompanyName>VDVZ</CompanyName>
+    <CompanyCode>ZVX</CompanyCode>
+    <Address>CX</Address>
+    <Street>VZ</Street>
+    <ZipCode>VSD</ZipCode>
+    <City>ZV</City>
+    <Telephone>VS</Telephone>
+    <Email>SV</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="6">
+    <Name>VDA</Name>
+    <Title>VDA</Title>
+    <CompanyName>DSV</CompanyName>
+    <CompanyCode>VZX</CompanyCode>
+    <Address>ZXCZX</Address>
+    <Street>CVXZ</Street>
+    <ZipCode>VCXZC</ZipCode>
+    <City>VZC</City>
+    <Telephone>CZV</Telephone>
+    <Email>ZVXC</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="12324">
+    <Name>wqdq</Name>
+    <Title>asd</Title>
+    <CompanyName>dwq</CompanyName>
+    <CompanyCode>asd</CompanyCode>
+    <Address>qwd</Address>
+    <Street>asd</Street>
+    <ZipCode>dqw</ZipCode>
+    <City>dqw</City>
+    <Telephone>das</Telephone>
+    <Email>asdw</Email>
+  </BusinessPartner>
+  <BusinessPartner Id="12">
+    <Name>dwqdd</Name>
+    <Title>sad</Title>
+    <CompanyName>asd</CompanyName>
+    <CompanyCode>dwq</CompanyCode>
+    <Address>asd</Address>
+    <Street>asd</Street>
+    <ZipCode>asd</ZipCode>
+    <City>asd</City>
+    <Telephone>asd</Telephone>
+    <Email>qwd</Email>
+  </BusinessPartner>
+</BusinessPartners>
