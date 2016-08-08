@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Trainee.Views.UIGenderSelector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="100">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Ellipse x:Name="maleBorder" Fill="DeepPink" StrokeThickness="2" Margin="8" Opacity="1" />
+        <Ellipse x:Name="maleSelector" Opacity="0.8" Fill="LightSkyBlue" StrokeThickness="4" Margin="10" MaxHeight="50" MaxWidth="50" MouseLeftButtonDown="OnMale" />
+        <Ellipse x:Name="femaleBorder" Fill="DeepPink" StrokeThickness="2" Margin="8" Opacity="0" Grid.Column="1" />
+        <Ellipse x:Name ="femaleSelector" Opacity="0.8"  Fill="LightPink" StrokeThickness="4" Margin="10" MaxHeight="50" MaxWidth="50" Grid.Column="1" MouseLeftButtonDown="OnFemale"/>
+    </Grid>
+</UserControl>

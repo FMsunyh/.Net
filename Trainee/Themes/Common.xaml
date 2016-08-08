@@ -1,0 +1,137 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!--Brushes-->
+    <SolidColorBrush x:Key="lightSkyBlue" Color="LightSkyBlue" />
+    <SolidColorBrush x:Key="Red" Color ="Red"/>
+    <SolidColorBrush x:Key="DeepPink" Color="DeepPink" />
+    <SolidColorBrush x:Key="Golden" Color ="Gold"/>
+    <SolidColorBrush x:Key="Greem" Color="Green" />
+    <SolidColorBrush x:Key="Orange" Color ="Orange"/>
+    <SolidColorBrush x:Key="YellowGreen" Color="YellowGreen" />
+    <SolidColorBrush x:Key="Gray" Color ="LightGray"/>
+    <LinearGradientBrush x:Key="lineGradient" StartPoint="0 0" EndPoint="0 1" Opacity="0.7">
+        <GradientStop Offset="0" Color="SkyBlue" />
+        <GradientStop Offset="0.3" Color="LightSkyBlue"/>
+        <GradientStop Offset="0.7" Color="YellowGreen" />
+        <GradientStop Offset="1.0" Color="Gold" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="background" StartPoint="1 0" EndPoint="0 1" Opacity="1" >
+        <GradientStop Color="SkyBlue" Offset="0" />
+        <GradientStop Color="White" Offset="0.3" />
+        <GradientStop Color="White" Offset="0.7" />
+        <GradientStop Color="SkyBlue" Offset="1" />
+    </LinearGradientBrush>
+
+    <!--Storyboards-->  
+    <Storyboard x:Key="mouseEnter">
+        <ColorAnimation SpeedRatio="1.25" Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.Color)" To="Red" Duration="00:00:01" />
+        <DoubleAnimation SpeedRatio="1.25" Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.Opacity)" To="1.0" Duration="00:00:01" />
+        <DoubleAnimation SpeedRatio="1.25" Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" To="0" Duration="00:00:01" />
+    </Storyboard>
+    <Storyboard x:Key="mouseLeave">
+        <ColorAnimation SpeedRatio="1.25" Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.Color)" To="DeepPink" Duration="00:00:01" />
+        <DoubleAnimation SpeedRatio="1.25" Storyboard.TargetProperty="(UIElement.Effect).(DropShadowEffect.Opacity)" To="0.3" Duration="00:00:01" />
+        <DoubleAnimation SpeedRatio="1.25" Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" To="-30" Duration="00:00:01" />
+    </Storyboard>
+    
+    <!--this is textbox style-->
+    <Style x:Key="{x:Type TextBox}" TargetType="TextBox">
+        <Setter Property="Margin" Value="3" />
+        <Setter Property="BorderBrush" Value="{StaticResource lightSkyBlue}" />
+        <Setter Property="Foreground" Value="{StaticResource lightSkyBlue}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="TextAlignment" Value="Left" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+    
+    <Style x:Key="{x:Type TextBlock}" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontStyle" Value="Italic"/>
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Effect" >
+            <Setter.Value>
+                <DropShadowEffect Color="LightSkyBlue" 
+                                      Opacity="0.5" RenderingBias="Performance" 
+                                      ShadowDepth="3" BlurRadius="3"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="TextAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+    
+    <Style x:Key="textButton" TargetType="TextBlock">
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Foreground" Value="{StaticResource lightSkyBlue}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="FontStyle" Value="Italic" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="DeepPink" ShadowDepth="5" Opacity="0.3" RenderingBias="Performance" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="RenderTransformOrigin" Value="0.5 0.5" />
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="-30"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                <EventTrigger.Actions>
+
+
+
+
+
+
+
+
+
+
+                </EventTrigger.Actions>
+            </EventTrigger>
+            <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                <EventTrigger.Actions>
+                    <BeginStoryboard Storyboard="{StaticResource mouseLeave}" />
+                </EventTrigger.Actions>
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Style x:Key="{x:Type ComboBox}" TargetType="ComboBox">
+        <Setter Property="Margin" Value="4" />
+        <Setter Property="BorderBrush" Value="LightSkyBlue" />
+        <Setter Property="BorderThickness" Value="2" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="SkyBlue" />
+        <Setter Property="ItemTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <TextBlock FontWeight="Bold" Text="{Binding Description}" />
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key="{x:Type ComboBoxItem}" TargetType="ComboBoxItem">
+        <Setter Property="Margin" Value="4" />
+        <Setter Property="BorderBrush" Value="LightSkyBlue" />
+        <Setter Property="BorderThickness" Value="2" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="SkyBlue" />
+        <Setter Property="VerticalContentAlignment" Value="Bottom" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <TextBlock FontWeight="Bold" Text="{Binding Description}"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+</ResourceDictionary>

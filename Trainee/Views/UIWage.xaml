@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="Trainee.Views.UIWage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="270" d:DesignWidth="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*"/>
+            <ColumnDefinition Width="0.7*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Salary" />
+        <TextBox Text="{Binding Salary}" Grid.Column="1" />
+        
+        <TextBlock Text="Bonus" Grid.Row="1"/>
+        <TextBox Text="{Binding Bonus}" Grid.Row="1" Grid.Column="1" />
+
+        <TextBlock Text="Subsidy" Grid.Row="2"/>
+        <TextBox Text="{Binding Subsidy}" Grid.Row="2" Grid.Column="1" />
+
+        <TextBlock Text="Tax" Grid.Row="3"/>
+        <Slider  Minimum="0" VerticalAlignment="Center" Margin ="5" MaxWidth="100"
+                Value="{Binding Tax}" Grid.Row="3" Grid.Column="1" MinWidth="265"/>
+
+        <TextBlock Text="Fund" Grid.Row="4"/>
+        <Slider Minimum="0" VerticalAlignment="Center" Margin ="5" MaxWidth="100"
+                Value="{Binding Fund}" Grid.Row="4" Grid.Column="1" MinWidth="265"/>
+
+        <TextBlock Text="Insurance" Grid.Row="5"/>
+        <Slider Minimum="0" VerticalAlignment="Center" Margin ="5" MaxWidth="100"
+                Value="{Binding Insurance}" Grid.Row="5" Grid.Column="1" MinWidth="265"/>
+    </Grid>
+</UserControl>
